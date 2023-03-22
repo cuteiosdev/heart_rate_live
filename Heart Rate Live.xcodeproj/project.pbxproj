@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C258C029CBB941001189E2 /* Heart_Rate_LiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */; };
+		E1C258C229CBB941001189E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258C129CBB941001189E2 /* ContentView.swift */; };
+		E1C258C429CBB942001189E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C258C329CBB942001189E2 /* Assets.xcassets */; };
+		E1C258C729CBB942001189E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C258C629CBB942001189E2 /* Preview Assets.xcassets */; };
+		E1C258D129CBB942001189E2 /* Heart_Rate_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258D029CBB942001189E2 /* Heart_Rate_LiveTests.swift */; };
+		E1C258DB29CBB942001189E2 /* Heart_Rate_LiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258DA29CBB942001189E2 /* Heart_Rate_LiveUITests.swift */; };
+		E1C258DD29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258DC29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C258CD29CBB942001189E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C258B429CBB941001189E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C258BB29CBB941001189E2;
+			remoteInfo = "Heart Rate Live";
+		};
+		E1C258D729CBB942001189E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C258B429CBB941001189E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C258BB29CBB941001189E2;
+			remoteInfo = "Heart Rate Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1C258BC29CBB941001189E2 /* Heart Rate Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveApp.swift; sourceTree = "<group>"; };
+		E1C258C129CBB941001189E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1C258C329CBB942001189E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C258C629CBB942001189E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1C258CC29CBB942001189E2 /* Heart Rate LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart Rate LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C258D029CBB942001189E2 /* Heart_Rate_LiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveTests.swift; sourceTree = "<group>"; };
+		E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart Rate LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C258DA29CBB942001189E2 /* Heart_Rate_LiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveUITests.swift; sourceTree = "<group>"; };
+		E1C258DC29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C258B929CBB941001189E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258C929CBB942001189E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258D329CBB942001189E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C258B329CBB941001189E2 = {
+			isa = PBXGroup;
+			children = (
+				E1C258BE29CBB941001189E2 /* Heart Rate Live */,
+				E1C258CF29CBB942001189E2 /* Heart Rate LiveTests */,
+				E1C258D929CBB942001189E2 /* Heart Rate LiveUITests */,
+				E1C258BD29CBB941001189E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C258BD29CBB941001189E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258BC29CBB941001189E2 /* Heart Rate Live.app */,
+				E1C258CC29CBB942001189E2 /* Heart Rate LiveTests.xctest */,
+				E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C258BE29CBB941001189E2 /* Heart Rate Live */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */,
+				E1C258C129CBB941001189E2 /* ContentView.swift */,
+				E1C258C329CBB942001189E2 /* Assets.xcassets */,
+				E1C258C529CBB942001189E2 /* Preview Content */,
+			);
+			path = "Heart Rate Live";
+			sourceTree = "<group>";
+		};
+		E1C258C529CBB942001189E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258C629CBB942001189E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1C258CF29CBB942001189E2 /* Heart Rate LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258D029CBB942001189E2 /* Heart_Rate_LiveTests.swift */,
+			);
+			path = "Heart Rate LiveTests";
+			sourceTree = "<group>";
+		};
+		E1C258D929CBB942001189E2 /* Heart Rate LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258DA29CBB942001189E2 /* Heart_Rate_LiveUITests.swift */,
+				E1C258DC29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift */,
+			);
+			path = "Heart Rate LiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C258BB29CBB941001189E2 /* Heart Rate Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C258E029CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate Live" */;
+			buildPhases = (
+				E1C258B829CBB941001189E2 /* Sources */,
+				E1C258B929CBB941001189E2 /* Frameworks */,
+				E1C258BA29CBB941001189E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart Rate Live";
+			productName = "Heart Rate Live";
+			productReference = E1C258BC29CBB941001189E2 /* Heart Rate Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C258CB29CBB942001189E2 /* Heart Rate LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C258E329CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate LiveTests" */;
+			buildPhases = (
+				E1C258C829CBB942001189E2 /* Sources */,
+				E1C258C929CBB942001189E2 /* Frameworks */,
+				E1C258CA29CBB942001189E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C258CE29CBB942001189E2 /* PBXTargetDependency */,
+			);
+			name = "Heart Rate LiveTests";
+			productName = "Heart Rate LiveTests";
+			productReference = E1C258CC29CBB942001189E2 /* Heart Rate LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1C258D529CBB942001189E2 /* Heart Rate LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C258E629CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate LiveUITests" */;
+			buildPhases = (
+				E1C258D229CBB942001189E2 /* Sources */,
+				E1C258D329CBB942001189E2 /* Frameworks */,
+				E1C258D429CBB942001189E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C258D829CBB942001189E2 /* PBXTargetDependency */,
+			);
+			name = "Heart Rate LiveUITests";
+			productName = "Heart Rate LiveUITests";
+			productReference = E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C258B429CBB941001189E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E1C258BB29CBB941001189E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E1C258CB29CBB942001189E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E1C258BB29CBB941001189E2;
+					};
+					E1C258D529CBB942001189E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E1C258BB29CBB941001189E2;
+					};
+				};
+			};
+			buildConfigurationList = E1C258B729CBB941001189E2 /* Build configuration list for PBXProject "Heart Rate Live" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C258B329CBB941001189E2;
+			productRefGroup = E1C258BD29CBB941001189E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C258BB29CBB941001189E2 /* Heart Rate Live */,
+				E1C258CB29CBB942001189E2 /* Heart Rate LiveTests */,
+				E1C258D529CBB942001189E2 /* Heart Rate LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C258BA29CBB941001189E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C258C729CBB942001189E2 /* Preview Assets.xcassets in Resources */,
+				E1C258C429CBB942001189E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258CA29CBB942001189E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258D429CBB942001189E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C258B829CBB941001189E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C258C229CBB941001189E2 /* ContentView.swift in Sources */,
+				E1C258C029CBB941001189E2 /* Heart_Rate_LiveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258C829CBB942001189E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C258D129CBB942001189E2 /* Heart_Rate_LiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C258D229CBB942001189E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C258DB29CBB942001189E2 /* Heart_Rate_LiveUITests.swift in Sources */,
+				E1C258DD29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C258CE29CBB942001189E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C258BB29CBB941001189E2 /* Heart Rate Live */;
+			targetProxy = E1C258CD29CBB942001189E2 /* PBXContainerItemProxy */;
+		};
+		E1C258D829CBB942001189E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C258BB29CBB941001189E2 /* Heart Rate Live */;
+			targetProxy = E1C258D729CBB942001189E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1C258DE29CBB942001189E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C258DF29CBB942001189E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C258E129CBB942001189E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Live/Preview Content\"";
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C258E229CBB942001189E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Live/Preview Content\"";
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1C258E429CBB942001189E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heart Rate Live.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heart Rate Live";
+			};
+			name = Debug;
+		};
+		E1C258E529CBB942001189E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heart Rate Live.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heart Rate Live";
+			};
+			name = Release;
+		};
+		E1C258E729CBB942001189E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heart Rate Live";
+			};
+			name = Debug;
+		};
+		E1C258E829CBB942001189E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heart Rate Live";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C258B729CBB941001189E2 /* Build configuration list for PBXProject "Heart Rate Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C258DE29CBB942001189E2 /* Debug */,
+				E1C258DF29CBB942001189E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C258E029CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C258E129CBB942001189E2 /* Debug */,
+				E1C258E229CBB942001189E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C258E329CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C258E429CBB942001189E2 /* Debug */,
+				E1C258E529CBB942001189E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C258E629CBB942001189E2 /* Build configuration list for PBXNativeTarget "Heart Rate LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C258E729CBB942001189E2 /* Debug */,
+				E1C258E829CBB942001189E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C258B429CBB941001189E2 /* Project object */;
+}
