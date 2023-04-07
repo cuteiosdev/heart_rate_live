@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1C258C029CBB941001189E2 /* Heart_Rate_LiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */; };
-		E1C258C229CBB941001189E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258C129CBB941001189E2 /* ContentView.swift */; };
+		E1C258C029CBB941001189E2 /* HeartRateLiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258BF29CBB941001189E2 /* HeartRateLiveApp.swift */; };
 		E1C258C429CBB942001189E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C258C329CBB942001189E2 /* Assets.xcassets */; };
 		E1C258C729CBB942001189E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C258C629CBB942001189E2 /* Preview Assets.xcassets */; };
 		E1C258D129CBB942001189E2 /* Heart_Rate_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258D029CBB942001189E2 /* Heart_Rate_LiveTests.swift */; };
 		E1C258DB29CBB942001189E2 /* Heart_Rate_LiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258DA29CBB942001189E2 /* Heart_Rate_LiveUITests.swift */; };
 		E1C258DD29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258DC29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift */; };
+		E1C258EC29CBB9ED001189E2 /* MonitorsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258EB29CBB9ED001189E2 /* MonitorsListViewModel.swift */; };
+		E1C258EE29CBC07E001189E2 /* MonitorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258ED29CBC07E001189E2 /* MonitorsList.swift */; };
+		E1C258F029CBC8F0001189E2 /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258EF29CBC8F0001189E2 /* MonitorView.swift */; };
+		E1C258F229CBC928001189E2 /* MonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258F129CBC928001189E2 /* MonitorViewModel.swift */; };
+		E1C258F529CBCB69001189E2 /* HeartRateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C258F429CBCB69001189E2 /* HeartRateValueFormatter.swift */; };
+		E1C258FE29CBCEB0001189E2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C258FD29CBCEB0001189E2 /* WidgetKit.framework */; };
+		E1C2590029CBCEB0001189E2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C258FF29CBCEB0001189E2 /* SwiftUI.framework */; };
+		E1C2590329CBCEB0001189E2 /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2590229CBCEB0001189E2 /* WidgetsBundle.swift */; };
+		E1C2590529CBCEB0001189E2 /* WidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2590429CBCEB0001189E2 /* WidgetsLiveActivity.swift */; };
+		E1C2590729CBCEB0001189E2 /* widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2590629CBCEB0001189E2 /* widgets.swift */; };
+		E1C2590A29CBCEB1001189E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2590929CBCEB1001189E2 /* Assets.xcassets */; };
+		E1C2590C29CBCEB1001189E2 /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E1C2590829CBCEB0001189E2 /* widgets.intentdefinition */; };
+		E1C2590D29CBCEB1001189E2 /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E1C2590829CBCEB0001189E2 /* widgets.intentdefinition */; };
+		E1C2591029CBCEB1001189E2 /* widgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E1C258FB29CBCEB0001189E2 /* widgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1C2591729CBD6D0001189E2 /* WidgetAttributes in Frameworks */ = {isa = PBXBuildFile; productRef = E1C2591629CBD6D0001189E2 /* WidgetAttributes */; };
+		E1C2591929CBD6D9001189E2 /* WidgetAttributes in Frameworks */ = {isa = PBXBuildFile; productRef = E1C2591829CBD6D9001189E2 /* WidgetAttributes */; };
+		E1C2591C29CBDDA6001189E2 /* CBPeripheral+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2591B29CBDDA6001189E2 /* CBPeripheral+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +47,32 @@
 			remoteGlobalIDString = E1C258BB29CBB941001189E2;
 			remoteInfo = "Heart Rate Live";
 		};
+		E1C2590E29CBCEB1001189E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C258B429CBB941001189E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C258FA29CBCEB0001189E2;
+			remoteInfo = widgetsExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1C2591429CBCEB1001189E2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1C2591029CBCEB1001189E2 /* widgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E1C258BC29CBB941001189E2 /* Heart Rate Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveApp.swift; sourceTree = "<group>"; };
-		E1C258C129CBB941001189E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1C258BF29CBB941001189E2 /* HeartRateLiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateLiveApp.swift; sourceTree = "<group>"; };
 		E1C258C329CBB942001189E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C258C629CBB942001189E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1C258CC29CBB942001189E2 /* Heart Rate LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart Rate LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +80,23 @@
 		E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heart Rate LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C258DA29CBB942001189E2 /* Heart_Rate_LiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveUITests.swift; sourceTree = "<group>"; };
 		E1C258DC29CBB942001189E2 /* Heart_Rate_LiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_LiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1C258EB29CBB9ED001189E2 /* MonitorsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorsListViewModel.swift; sourceTree = "<group>"; };
+		E1C258ED29CBC07E001189E2 /* MonitorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorsList.swift; sourceTree = "<group>"; };
+		E1C258EF29CBC8F0001189E2 /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
+		E1C258F129CBC928001189E2 /* MonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewModel.swift; sourceTree = "<group>"; };
+		E1C258F429CBCB69001189E2 /* HeartRateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateValueFormatter.swift; sourceTree = "<group>"; };
+		E1C258F629CBCDEE001189E2 /* Heart-Rate-Live-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Heart-Rate-Live-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E1C258FB29CBCEB0001189E2 /* widgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C258FD29CBCEB0001189E2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E1C258FF29CBCEB0001189E2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E1C2590229CBCEB0001189E2 /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
+		E1C2590429CBCEB0001189E2 /* WidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		E1C2590629CBCEB0001189E2 /* widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgets.swift; sourceTree = "<group>"; };
+		E1C2590829CBCEB0001189E2 /* widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widgets.intentdefinition; sourceTree = "<group>"; };
+		E1C2590929CBCEB1001189E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C2590B29CBCEB1001189E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C2591529CBD691001189E2 /* WidgetAttributes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WidgetAttributes; sourceTree = "<group>"; };
+		E1C2591B29CBDDA6001189E2 /* CBPeripheral+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBPeripheral+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2591729CBD6D0001189E2 /* WidgetAttributes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +122,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1C258F829CBCEB0001189E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C2590029CBCEB0001189E2 /* SwiftUI.framework in Frameworks */,
+				E1C258FE29CBCEB0001189E2 /* WidgetKit.framework in Frameworks */,
+				E1C2591929CBD6D9001189E2 /* WidgetAttributes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E1C258B329CBB941001189E2 = {
 			isa = PBXGroup;
 			children = (
+				E1C2591529CBD691001189E2 /* WidgetAttributes */,
 				E1C258BE29CBB941001189E2 /* Heart Rate Live */,
 				E1C258CF29CBB942001189E2 /* Heart Rate LiveTests */,
 				E1C258D929CBB942001189E2 /* Heart Rate LiveUITests */,
+				E1C2590129CBCEB0001189E2 /* widgets */,
+				E1C258FC29CBCEB0001189E2 /* Frameworks */,
 				E1C258BD29CBB941001189E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +154,7 @@
 				E1C258BC29CBB941001189E2 /* Heart Rate Live.app */,
 				E1C258CC29CBB942001189E2 /* Heart Rate LiveTests.xctest */,
 				E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */,
+				E1C258FB29CBCEB0001189E2 /* widgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +162,12 @@
 		E1C258BE29CBB941001189E2 /* Heart Rate Live */ = {
 			isa = PBXGroup;
 			children = (
-				E1C258BF29CBB941001189E2 /* Heart_Rate_LiveApp.swift */,
-				E1C258C129CBB941001189E2 /* ContentView.swift */,
+				E1C258F629CBCDEE001189E2 /* Heart-Rate-Live-Info.plist */,
+				E1C2591A29CBDD94001189E2 /* Extensions */,
+				E1C258F329CBCB56001189E2 /* Formatters */,
+				E1C258EA29CBB9BC001189E2 /* Views */,
+				E1C258E929CBB9B2001189E2 /* ViewModels */,
+				E1C258BF29CBB941001189E2 /* HeartRateLiveApp.swift */,
 				E1C258C329CBB942001189E2 /* Assets.xcassets */,
 				E1C258C529CBB942001189E2 /* Preview Content */,
 			);
@@ -127,6 +199,62 @@
 			path = "Heart Rate LiveUITests";
 			sourceTree = "<group>";
 		};
+		E1C258E929CBB9B2001189E2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258EB29CBB9ED001189E2 /* MonitorsListViewModel.swift */,
+				E1C258F129CBC928001189E2 /* MonitorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1C258EA29CBB9BC001189E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258ED29CBC07E001189E2 /* MonitorsList.swift */,
+				E1C258EF29CBC8F0001189E2 /* MonitorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1C258F329CBCB56001189E2 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258F429CBCB69001189E2 /* HeartRateValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		E1C258FC29CBCEB0001189E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C258FD29CBCEB0001189E2 /* WidgetKit.framework */,
+				E1C258FF29CBCEB0001189E2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C2590129CBCEB0001189E2 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2590229CBCEB0001189E2 /* WidgetsBundle.swift */,
+				E1C2590429CBCEB0001189E2 /* WidgetsLiveActivity.swift */,
+				E1C2590629CBCEB0001189E2 /* widgets.swift */,
+				E1C2590829CBCEB0001189E2 /* widgets.intentdefinition */,
+				E1C2590929CBCEB1001189E2 /* Assets.xcassets */,
+				E1C2590B29CBCEB1001189E2 /* Info.plist */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		E1C2591A29CBDD94001189E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2591B29CBDDA6001189E2 /* CBPeripheral+Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +265,17 @@
 				E1C258B829CBB941001189E2 /* Sources */,
 				E1C258B929CBB941001189E2 /* Frameworks */,
 				E1C258BA29CBB941001189E2 /* Resources */,
+				E1C2591429CBCEB1001189E2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E1C2590F29CBCEB1001189E2 /* PBXTargetDependency */,
 			);
 			name = "Heart Rate Live";
+			packageProductDependencies = (
+				E1C2591629CBD6D0001189E2 /* WidgetAttributes */,
+			);
 			productName = "Heart Rate Live";
 			productReference = E1C258BC29CBB941001189E2 /* Heart Rate Live.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +316,26 @@
 			productReference = E1C258D629CBB942001189E2 /* Heart Rate LiveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E1C258FA29CBCEB0001189E2 /* widgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C2591129CBCEB1001189E2 /* Build configuration list for PBXNativeTarget "widgetsExtension" */;
+			buildPhases = (
+				E1C258F729CBCEB0001189E2 /* Sources */,
+				E1C258F829CBCEB0001189E2 /* Frameworks */,
+				E1C258F929CBCEB0001189E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetsExtension;
+			packageProductDependencies = (
+				E1C2591829CBD6D9001189E2 /* WidgetAttributes */,
+			);
+			productName = widgetsExtension;
+			productReference = E1C258FB29CBCEB0001189E2 /* widgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +357,9 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = E1C258BB29CBB941001189E2;
 					};
+					E1C258FA29CBCEB0001189E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 				};
 			};
 			buildConfigurationList = E1C258B729CBB941001189E2 /* Build configuration list for PBXProject "Heart Rate Live" */;
@@ -222,6 +378,7 @@
 				E1C258BB29CBB941001189E2 /* Heart Rate Live */,
 				E1C258CB29CBB942001189E2 /* Heart Rate LiveTests */,
 				E1C258D529CBB942001189E2 /* Heart Rate LiveUITests */,
+				E1C258FA29CBCEB0001189E2 /* widgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +407,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1C258F929CBCEB0001189E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C2590A29CBCEB1001189E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +422,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C258C229CBB941001189E2 /* ContentView.swift in Sources */,
-				E1C258C029CBB941001189E2 /* Heart_Rate_LiveApp.swift in Sources */,
+				E1C258EE29CBC07E001189E2 /* MonitorsList.swift in Sources */,
+				E1C2590D29CBCEB1001189E2 /* widgets.intentdefinition in Sources */,
+				E1C258F229CBC928001189E2 /* MonitorViewModel.swift in Sources */,
+				E1C258EC29CBB9ED001189E2 /* MonitorsListViewModel.swift in Sources */,
+				E1C258C029CBB941001189E2 /* HeartRateLiveApp.swift in Sources */,
+				E1C258F029CBC8F0001189E2 /* MonitorView.swift in Sources */,
+				E1C2591C29CBDDA6001189E2 /* CBPeripheral+Identifiable.swift in Sources */,
+				E1C258F529CBCB69001189E2 /* HeartRateValueFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +450,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1C258F729CBCEB0001189E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C2590C29CBCEB1001189E2 /* widgets.intentdefinition in Sources */,
+				E1C2590729CBCEB0001189E2 /* widgets.swift in Sources */,
+				E1C2590529CBCEB0001189E2 /* WidgetsLiveActivity.swift in Sources */,
+				E1C2590329CBCEB0001189E2 /* WidgetsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +473,11 @@
 			isa = PBXTargetDependency;
 			target = E1C258BB29CBB941001189E2 /* Heart Rate Live */;
 			targetProxy = E1C258D729CBB942001189E2 /* PBXContainerItemProxy */;
+		};
+		E1C2590F29CBCEB1001189E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C258FA29CBCEB0001189E2 /* widgetsExtension */;
+			targetProxy = E1C2590E29CBCEB1001189E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,14 +599,19 @@
 		E1C258E129CBB942001189E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Live/Preview Content\"";
-				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heart-Rate-Live-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow connection to heart rate monitors over bluetooth";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +622,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -441,14 +632,19 @@
 		E1C258E229CBB942001189E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Live/Preview Content\"";
-				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heart-Rate-Live-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow connection to heart rate monitors over bluetooth";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +655,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -543,6 +738,60 @@
 			};
 			name = Release;
 		};
+		E1C2591229CBCEB1001189E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C2591329CBCEB1001189E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74D9UBS5CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cuteios.Heart-Rate-Live.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,7 +831,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E1C2591129CBCEB1001189E2 /* Build configuration list for PBXNativeTarget "widgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C2591229CBCEB1001189E2 /* Debug */,
+				E1C2591329CBCEB1001189E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1C2591629CBD6D0001189E2 /* WidgetAttributes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WidgetAttributes;
+		};
+		E1C2591829CBD6D9001189E2 /* WidgetAttributes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WidgetAttributes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1C258B429CBB941001189E2 /* Project object */;
 }
